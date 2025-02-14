@@ -1,0 +1,275 @@
+@media (max-width: 768px) {  
+    body { font-size: 14px; }  
+    .container { width: 100%; padding: 10px; }  
+    img { max-width: 100%; height: auto; }  
+  }
+
+body {
+    font-family: sans-serif;
+    margin: 0;
+    line-height: 1.6;
+    color: #333;
+}
+
+/* Header 1 */
+header {
+    background-color: #e0d5bf; /* Light gray background */
+    padding: 20px 0;
+}
+
+.container {
+    max-width: 80%; /* Adjusted container width */
+    margin: 0 auto;
+    padding: 1%;
+    display: flex; /* Enable flexbox for alignment */
+    align-items: center; /* Vertically center content */
+}
+
+.myName {
+    font-family: "Grechen Fuemen", serif;
+    font-size: 40px;
+    text-align: center;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex; /* Keep the flexbox for horizontal layout */
+    scroll-behavior: smooth;
+}
+
+nav li {
+    margin-left: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #503302; /* Dark gray text color */
+    font-family: 'Arial', sans-serif; /* A clean, standard font */
+    font-weight: 700; /* Slightly bolder */
+    padding: 10px 15px; /* Add some padding around the text */
+    transition: all 0.3s ease; /* Smooth hover effect */
+    padding: 10px 20px; /* Adjust padding */
+    background-color: transparent; /* Transparent background */
+    border: 2px solid transparent; /* Subtle border for hover effect */
+    border-radius: 50%;
+}
+
+nav a:hover {
+    color: #ffffff;
+    border-color: #795102; /* Border on hover */
+    background-color: rgb(89, 58, 4); /* Light blue background on hover */
+}
+
+/* Header 2 Section */
+.header2 {
+    background-color: #efe9db; /* Very light gray background */
+    padding: 150px 0; /* Adjust as needed */
+    display: flex; /* Use flexbox for layout */
+    align-items: center; /* Vertically center content */
+}
+
+.header2-image {
+    /* Style for the hero image */
+    width: 400px; /* Set a specific width for the image */
+    height: auto;
+    margin-left: 20px; /* Add some margin on the left */
+}
+
+.header2-image img {
+    max-width: 100%;
+    height: auto;
+    display: block; /* Prevents small space below image */
+}
+
+.header2-content {
+    flex: 1; /* Allow content to take available space */
+    text-align: center; /* Center the text */
+    padding: 0 20px; /* Add some padding */
+}
+
+.header2-content h1 {
+    text-align: justify;
+    width: 80%;
+    max-width: 600px;
+    margin: 20px auto;
+    font-family: "Righteous", serif;
+    font-weight: 600;
+    font-size: 250%;
+}
+
+.header2-content p {
+    text-align: justify;
+    width: 80%; /* Adjust width as needed */
+    max-width: 600px; /* Limits the width for better readability */
+    margin: 20px auto; /* Centers the box */
+    padding: 5px;
+    text-align: justify;
+    line-height: 1.6; /* Improves readability */
+    font-family: 'Times New Roman', serif;
+}
+
+.header2 button {
+    background-color: #007bff;  /* Example button color */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+/* About Me Section */
+.aboutMe {
+    background-color: #a5947e;
+    padding: 40px 0;
+}
+
+.aboutMe .container {
+    text-align: center;
+    display: flex;
+    flex-direction: column; /* Stack elements vertically */
+    align-items: center; /* Center align items horizontally */
+}
+
+.container h2,
+.container p {
+    margin: 0 auto; /* Ensures proper centering */
+    max-width: 800px; /* Optional: Limits width for better readability */
+}
+
+.aboutMe-content {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    justify-content: center;
+    gap: 20px; /* Adds spacing between image and text */
+    flex-wrap: wrap; /* Ensures responsiveness on smaller screens */
+}
+
+.aboutMe-content img {
+    max-width: 300px;
+    height: auto;
+    border-radius: 50%; /* Make image circular */
+    margin-left: 80px;
+    order: 2;
+}
+
+.aboutMe-text {
+    flex: 1; /* Allows text to take remaining space */
+    text-align: left; /* Aligns text to the left */
+    text-align: justify;
+}
+
+/* Skills Section */
+.skills {
+    background-color: #c9b69e; /* Very light gray background */
+    padding: 40px 0;
+}
+
+.skills .container {
+    text-align: center;
+    display: flex;
+    flex-direction: column; /* Stack elements vertically */
+    align-items: center; /* Center align items horizontally */
+}
+
+.skills h2 {
+    margin: 0 auto; /* Ensures proper centering */
+    max-width: 800px; /* Optional: Limits width for better readability */
+}
+
+.skills-content {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    gap: 150px;
+    align-items: flex-start;
+}
+
+.skills-text1,
+.skills-text2 {
+    width: 100%; /* Make them equal width */
+    text-align: left; /* Align text to the left within each column */
+}
+
+.skills-content ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.skills-content li {
+    margin-bottom: 10px;
+}
+
+/* Experience Section */
+.experience {
+    background-color: #725d3aed;
+    padding: 40px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.container h2 {
+    color: #fff;
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.container p {
+    color: #ddd;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.experience-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    max-width: 80%;
+}
+
+.experience-text {
+    background-color: #fff;
+    padding: 20px;
+    width: 500px; /* Long rectangular shape */
+    min-height: 120px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+}
+
+.experience-text h3 {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.experience-text p {
+    font-size: 16px;
+    color: #555;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 1% 0;
+    display: flex;
+    justify-content: left;
+    align-items: left;
+}
+
+.contacts-content {
+    display: flex;
+    justify-content: center; /* Centers horizontally */
+    align-items: center; /* Aligns vertically */
+    gap: 50px; /* Adds spacing between elements */
+    text-align: left; /* Keeps text aligned properly */
+}
